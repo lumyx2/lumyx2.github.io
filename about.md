@@ -11,7 +11,7 @@ Holder of a 5-year visa.
 - [Skills](#skills)
 - [Projects](#projects)
 - [Work Experience](#work-experience)
-- [Phd Research](#phd-research)
+- [PhD Research](#phd-research)
 - [Education](#education)
 - [Publications](#publications)
 
