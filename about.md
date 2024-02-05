@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-# About 
+# Intro 
 Engineering and Computer Science PhD graduate located in Japan with over 10 years of hands-on experience in software and hardware development, system design, evaluation and integration with commercial research experience. Founder of [Cambridge Intelligent Systems UK Ltd](http://cambridgeintelligentsystems.co.uk/) company that worked with the UK Ministry of Defence to prototype technologies and which is still active in the development of other projects. 
 
 Holder of a 5-year visa currently looking to further his development career in Japan in the long term. 
