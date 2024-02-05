@@ -2,11 +2,19 @@
 layout: page
 title: About
 ---
-
-# Intro 
+# Max Nicosia PhD's Intro 
 Engineering and Computer Science PhD graduate located in Japan with over 10 years of hands-on experience in software and hardware development, system design, evaluation and integration with commercial research experience. Founder of [Cambridge Intelligent Systems UK Ltd](http://cambridgeintelligentsystems.co.uk/) company that worked with the UK Ministry of Defence to prototype technologies and which is still active in the development of other projects. 
 
 Holder of a 5-year visa currently looking to further his development career in Japan in the long term. 
+
+# Table of Content 
+- [Skills](#skills)
+- [Projects](#projects)
+- [Work Experience](#work-experience)
+- [Phd Research](#phd-research)
+- [Education](#education)
+- [Publications](#publications)
+
 
 # Skills
 
