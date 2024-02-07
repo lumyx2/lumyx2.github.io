@@ -63,9 +63,14 @@ The project focused on developing a VR simulation environment that allowed testi
 
 The listing of the project can be seen in this [UK Government listing](https://www.gov.uk/government/publications/accelerator-funded-contracts/defence-and-security-accelerator-funded-contracts-1-april-2019-to-31-march-2020#open-call-for-innovation). 
 
-![Virtual GVA](media/gva.png "Virtual GVA")
-<a href="{{ site.baseurl }}/media/gva_demo.mp4">Virtual GVA Demo Video</a>   
+![Watch Virtual GVA Demo Video](media/gva.png "Watch Virtual GVA Demo Video")
 
+[![]({{ site.baseurl }}/media/gva_demo.mp4)]({{ site.baseurl }}/media/gva_demo.mp4)
+
+<a href="{{ site.baseurl }}/media/gva_demo.mp4">Watch Virtual GVA Demo Video</a>   
+
+
+<video width="630" height="300" src="{{ site.baseurl }}/media/gva_demo.mp4""></video>
 
 
 ## Mixed Reality Controls for Armoured Vehicles - DSTL Open Call for Innovation Cycle 3 – Project Ref: ACC2000981
