@@ -65,7 +65,7 @@ The listing of the project can be seen in this [UK Government listing](https://w
 
 ![Virtual Environment For Threat Detection](media/urban.png "Virtual Environment For Threat Detection")
 
-[![Watch Virtual Environment For Threat Detection Video](media/prev_gva_vid.png)]({{ site.baseurl }}/media/Demo_urban.mp4)
+[![Watch Virtual Environment For Threat Detection Video](media/prev_urban_vid.png)]({{ site.baseurl }}/media/Demo_urban.mp4)
 
 
 ## Mixed Reality Controls for Armoured Vehicles - DSTL Open Call for Innovation Cycle 3 – Project Ref: ACC2000981
@@ -115,9 +115,9 @@ The project's objective was to deliver an attention-aware distributed middleware
 * API with hooks for delivering messages/events to applications. 
 * Overlay library built in Javascript (d3.js) capable of drawing on top of web applications to highlight data points, and show relative data age and relative position of data changes across displays based on the operator's current focus of attention.
 
-![Multi-display Info Change Tracker System](media/eye.png "Multi-display Info Change Tracker System")
+![Watch Multi-display Inattention Management Middleware System Video](media/eye.png "Watch Multi-display Inattention Management Middleware System Video")
 
-[![Watch Multi-display Info Change Tracker System Video](media/final_cambridge_480p.mp4)]({{ site.baseurl }}/media/final_cambridge_480p.mp4)
+[![Watch Multi-display Inattention Management Middleware System Video](media/prev_eye_vid.png)]({{ site.baseurl }}/media/final_cambridge_480p.mp4)
 
 
 # Work Experience
