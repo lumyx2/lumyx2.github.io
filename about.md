@@ -63,13 +63,9 @@ The project focused on developing a VR simulation environment that allowed testi
 
 The listing of the project can be seen in this [UK Government listing](https://www.gov.uk/government/publications/accelerator-funded-contracts/defence-and-security-accelerator-funded-contracts-1-april-2019-to-31-march-2020#open-call-for-innovation). 
 
-![Virtual GVA Images](media/gva.png "Virtual GVA Images")
+![Virtual Environment For Threat Detection](media/urban.png "Virtual Environment For Threat Detection")
 
-<a href="{{ site.baseurl }}/media/gva_demo.mp4">Watch Virtual GVA Demo Video</a>   
-
-
-
-[![Watch the video](media/prev_gva_vid.png)]({{ site.baseurl }}/media/gva_demo.mp4)
+[![Watch Virtual Environment For Threat Detection Video](media/prev_gva_vid.png)]({{ site.baseurl }}/media/Demo_urban.mp4)
 
 
 ## Mixed Reality Controls for Armoured Vehicles - DSTL Open Call for Innovation Cycle 3 – Project Ref: ACC2000981
@@ -94,6 +90,10 @@ The project's objective was to compile the requirements and deliver a simulation
 * Multi-axis cameras for outside and inside views from the vehicle. 
 * Head-up UI to incorporate key moving platform controls and add new virtual ones: compass, minimap of current location and threats, and 360 augmented spherical view with threat markers/pointers in the virtual environment.
 
+![Virtual GVA Images](media/gva.png "Virtual GVA Images")
+
+[![Watch Virtual GVA Demo Video](media/prev_gva_vid.png)]({{ site.baseurl }}/media/gva_demo.mp4)
+
 ## Distributed multi-display system and middleware for close proximity operator gaze and attention tracking - Project Ref: ACC101965 
 
 **Duration:** May 2017 - Dec 2017
@@ -115,7 +115,9 @@ The project's objective was to deliver an attention-aware distributed middleware
 * API with hooks for delivering messages/events to applications. 
 * Overlay library built in Javascript (d3.js) capable of drawing on top of web applications to highlight data points, and show relative data age and relative position of data changes across displays based on the operator's current focus of attention.
 
+![Multi-display Info Change Tracker System](media/eye.png "Multi-display Info Change Tracker System")
 
+[![Watch Multi-display Info Change Tracker System Video](media/final_cambridge_480p.mp4)]({{ site.baseurl }}/media/final_cambridge_480p.mp4)
 
 
 # Work Experience
