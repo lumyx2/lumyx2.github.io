@@ -3,347 +3,443 @@ layout: post
 title: About
 ---
 
-# Max Nicosia PhD's Intro 
-I am a PhD graduate who ran his own company (Cambridge Intelligent Systems UK Ltd.) providing commercial research services (prototypes/simulations) to the UK MoD. 
+# Max Nicosia, PhD
 
-I have over 10 years of hands‑on experience in high‑performance safety‑critical software and hardware integration, system design, and evaluation across a variety of technologies and programming languages.
+## Software R&D & Systems Engineer
+
+I am a Software R&D and Systems Engineer with over 10 years of hands-on experience designing, prototyping, implementing and validating complex technical systems across simulation, XR, safety-critical software, distributed systems, hardware/software integration and low-latency applications.
+
+I specialise in taking early-stage technical concepts from requirements and system architecture through prototyping, implementation, experimentation, optimisation and validation. My background includes technical leadership at Woven by Toyota, production low-latency C++ systems, UK Ministry of Defence-funded R&D, XR and simulation platforms, distributed sensor middleware, and human-in-the-loop systems.
+
+My strongest development languages are **C++, C# and Python**, with additional experience in TypeScript, JavaScript, Java and a broad range of systems, research and visualisation technologies.
 
 Holder of a 5-year visa.
 
-# Table of Content 
-- [Skills](#skills)
+# Table of Contents
+
+- [Core Expertise](#core-expertise)
+- [Technical Skills](#technical-skills)
 - [Work Experience](#work-experience)
 - [Projects](#projects)
 - [PhD Research](#phd-research)
 - [Education](#education)
+- [Earlier Research and Development](#earlier-research-and-development)
 - [Publications](#publications)
 - [Patents](#patents)
+- [Additional Projects](#additional-projects)
+- [Languages](#languages)
 
+# Core Expertise
 
-# Skills
+R&D & Rapid Prototyping • Systems Architecture & Design • Simulation • XR / AR / VR • Safety-Critical Systems • Human-in-the-Loop Systems • Verification & Validation • Hardware/Software Integration • Distributed Systems & Middleware • Low-Latency Software • Performance Optimisation • Technical Leadership
 
-### LANGUAGES / LIBRARIES / PARADIGMS / SOFTWARE
-    C/C++ • C# • Python • Java • Android / Gradle • iOS XCode • R • TypeScript • JavaScript • Ruby • React • CSS • MySQL/SQL • AR/VR • TCP/UDP/IP • WebSockets • AWS • Bash • PowerShell • Linux • OpenMP • MPI • pthreads • GitHub • Boost • psutil • scikit‑learn • PyTorch • scipy • numpy • d3.js • LATEX
+# Technical Skills
 
-### DEVELOPMENT AND PROGRAMMING
-    • Agile development • Scrum Development • Test‑driven development • Designing and building custom APIs to expose functionality for information feeds and/or hardware control • Development of custom 2D/3D adaptive interfaces • Custom 2D/3D interactive visualisations development for real‑time live object tracking and/or data stream monitoring of stats to display visualisations using d3.js in TypeScript with React • Rapid prototyping and integration of proprietary interfaces / systems for demos • Middleware design and implementation for multi‑platform integration • Multithreading / lockless coding / synchronisation / memory barriers • Memory management for restrictive hardware and/or operations • Interfacing with hardware drivers, e.g. sensors • Sensor fusion and machine learning model building • MapReduce implementation and integration (Hadoop) • Design and implementation of custom network protocols at kernel level • TCP / UPD / WebSockets • Custom network paradigms, e.g. data‑centric, publish‑subscribe and distributed networks
+### Programming Languages
 
-### UNITY / UNREAL
-    • Use of assets such as Mixamo characters • Importing/modifying and blending character animations • Textures • Lighting effects / filters • Some shader experience • LOD use and configuration • Dynamic asset loading • Spline implementation and collision avoidance for custom pathfinding, e.g. vehicles and pedestrians • Behaviour trees and blackboards for characters • Custom object serialisation for loading and saving, e.g. data‑structure marshalling • Blueprint design
+C / C++ • C# • Python • Java • TypeScript • JavaScript • Ruby • R • SQL
 
-### ANALYTICAL / RESEARCH
-    • Statistical testing • Statistical model fitting • Machine learning models • Participant and participant‑free design and execution • Big data management and analysis • Scientific data visualisation / presentation
+### Systems and Software Engineering
 
-### PROJECT MANAGEMENT
-    • Stakeholder meetings • Requirement elicitation • Milestone allocation and prioritisation • Live demos and presentations
+Multithreading • Distributed Systems • Middleware • TCP/IP • UDP • WebSockets • Windows/Linux Sockets • CAN • Custom APIs • Dependency Injection • Automated Testing • CI/CD • Performance Profiling • Low-Latency Software • Agile / Scrum • Test-Driven Development
 
+### Simulation / XR / Interactive Systems
 
+Unity • Unreal Engine • AR / VR / XR • Vehicle Simulation • Physics Simulation • 2D/3D Adaptive Interfaces • Real-Time Visualisation • Human-in-the-Loop Systems • Eye Tracking • Sensor Integration • Vehicle/Pedestrian Pathfinding • Behaviour Trees • Blackboards • Animations • Shaders / Filters • Mixamo • LOD • Dynamic Asset Loading • Serialisation / Marshalling • Unreal Blueprint
 
+### Parallel / High-Performance Computing
 
+OpenMP • MPI • pthreads • Lockless Programming • Synchronisation • Memory Barriers • Ring Buffers • Memory Pools • Cache Alignment • Compiler Optimisation
 
+### Data / Scientific Computing / Machine Learning
 
+NumPy • SciPy • Pandas • scikit-learn • PyTorch • Jupyter • d3.js • Bayesian Optimisation • Statistical Testing • Statistical Model Fitting • Sensor Fusion • Machine Learning • Scientific Visualisation • Experimental Design • Big-Data Analysis • MapReduce / Hadoop
 
+### Tools / Platforms
+
+Docker • Podman • CMake • Make • GitHub Actions • Git • Boost • psutil • Bash • PowerShell • Gradle • AWS • Linux • Android • iOS • Xcode • React • CSS • MySQL / SQL
+
+### Project / Research Management
+
+Stakeholder Meetings • Requirements Elicitation • Milestone Planning and Prioritisation • Technical Leadership • Team Management • Mentoring • Research Proposals • Live Demonstrations • Technical Presentations • Experimental Design and Validation
 
 # Work Experience
 
+## Woven by Toyota — Technical Lead, XR Safety / Driver Sync Assist
 
-## Technical Lead (XR Safety / Driver Sync Assist) - Woven by Toyota
+**June 2024 – March 2026 · Tokyo, Japan**
 
-Jun 2024 - Mar 2026
+Technical lead for the judgement and simulation workstream of a driver-safety and XR research programme.
 
-Tokyo, Japan
+- Led the judgement and simulation workstream, directly managing up to 2 engineers and providing technical direction, mentoring, task allocation and code review.
+- Re-architected an inherited Unity environment consisting primarily of loosely structured scenes and assets into a maintainable C# simulation platform suitable for repeatable experiments, safety validation and product development.
+- Restructured the codebase using interfaces, inheritance, dependency injection and the Humble Object pattern, improving maintainability and enabling automated testing.
+- Developed automated tests covering shared physics calculations and safety judgement for vehicles, pedestrians, traffic lights and other obstacles.
+- Designed and implemented driver-safety judgement using live and simulated data, including probabilistic collision risk, driver reaction time and cognitive-load considerations.
+- Developed vehicle and environmental physics logic and integrated Vehicle Physics Pro for realistic vehicle and engine simulation.
+- Developed reproducible vehicle and pedestrian navigation/pathfinding for controlled simulation scenarios.
+- Implemented capture, playback and re-simulation capabilities for repeatable experimentation, testing and analysis.
+- Developed C/C++ wrappers and CAN interfaces for simulation hardware inputs including steering, speed, acceleration, pedals and feature controls.
+- Profiled and optimised the Unity simulation, eliminating repeated execution and other bottlenecks to achieve the target of **60+ FPS**, typically reaching approximately **90–120 FPS** depending on scene complexity.
+- Maintained interactive performance while driving **5 × 4K displays plus 2 × HD mirrored displays**.
+- Supported experiments with **16 participants** using Latin-square counterbalancing for verification and validation of judgement and safety logic.
+- Defined testing and product-verification strategies and produced documentation supporting PoC and beta-gate approval.
+- Presented quarterly technical demonstrations and project progress to product management.
+- Developed visualisation technology resulting in patent filings in Japan and the United States and was named as a co-inventor.
+- Delivered project milestones through PoC verification and beta gates, allowing the project to progress into early production development.
 
-*  Development of safety simulations in Unity to match researched hazard use‑cases and verification cases.
-*  Designed Software Architecture for the simulation system that could replay real‑world collected data.
-* Integrated Vehicle Physics Pro library for realistic physics simulation.
-* Developed C/C++ wrappers for CAN data integration with various controllers and system/sensor interfaces.
-* Development and execution of validation and verification experiments of safety logic with human participants.
-* Validated simulation accuracy through use‑case testing.
-* Reviewed Pull Request to ensure quality assurance, style, etc.
-* Structured / refactored existing code base to integrate into our product.
-* Assetasation of simulation logic for team collaboration.
-* Participated in strategy meetings for long‑term division growth and OKR planning.
-* Presented and demoed the state of system at quarterly VIP events.
-* Development of future technologies and patents (see patents).
+**Technologies:** C#, C++, Unity, CAN, Vehicle Physics Pro, automated testing, simulation, performance profiling, XR, hardware integration
 
+## FinStadiumX — Strategic Software Development Team Lead
 
-## Strategic Software Development Team Lead - FinStadiumX
+**April 2024 – May 2024 · Tokyo, Japan**
 
-Apr 2024 - May 2024 
+- Led and mentored a team of 2 engineers developing and maintaining production low-latency C++ financial transaction systems.
+- Designed, implemented and deployed C++ components for high-frequency equities, futures and dark-pool transaction processing on Linux.
+- Worked on production systems handling approximately **2,000–5,000 transactions per second** at approximately **20 ms latency**, with transaction flows associated with approximately **¥7–10 billion in daily revenue per product**.
+- Applied low-latency techniques including memory barriers, lockless data structures, ring buffers, memory pools, cache alignment and compiler optimisation.
+- Profiled legacy components to identify performance bottlenecks and candidates for redesign or reimplementation.
+- Began formalising latency and performance testing for production components.
+- Developed build procedures across Linux and Windows using CMake, Make and Visual Studio.
+- Maintained Docker and Podman development, test and production environments.
+- Ensured component compliance with FIX protocols.
+- Introduced automated CMake build, test and deployment scripts that prevented defective changes from reaching production.
+- Mentored engineers and reorganised work allocation around technical strengths and verifiable development priorities.
 
-Tokyo, Japan
+**Technologies:** C++, Linux, CMake, Make, Docker, Podman, FIX, low-latency systems, multithreading, lockless programming
 
-* Designing and developing new in‑house C++ low‑latency, lockless software components for High‑Frequency Trading services for Linux AWS‑hosted servers (Equities, Futures, Dark Pools, etc).
-* Maintaining legacy C++ software components for financial transaction services.
-* Using advanced C++ low‑latency paradigms/features such as memory barriers, ring buffers, lockless coding, memory pools and cache alignment strategies.
-* Profiling legacy components to identify candidates for optimisation and/or redesign and reimplementation.
-* Developing build procedures for components and libraries in Linux/Windows (VS Studio, CMake and Make).
-* Ensuring compliance with FIX Protocols across components. 
-* Maintaining development, test and production environment management.
-* Building documentation of legacy and new components and features.
+## Tokyo Academics — Head of Research
 
-## Head of Research - Tokyo Academics 
+**November 2022 – March 2024 · Tokyo, Japan**
 
-Nov 2022 - March 2024
+- Managed approximately 20 part-time researchers supervising student research projects.
+- Managed research operations together with divisional sales and marketing strategy.
+- Supervised computer-science projects involving software prototyping and machine learning across multiple technologies.
+- Grew the research programme from approximately 20 students to around 50–60 students.
+- Achieved approximately **125% growth in sales receipts** against a 50% growth target.
 
-Tokyo, Japan
+## Cambridge Intelligent Systems UK Ltd — CEO, Co-founder & Technical Lead
 
-* Managed a team of ≈20 part‑time researchers who supervise young students’ research projects.
-* Managed division, including sales and marketing strategy.
-* Exceeded YTD sales performance by 125%, well above the 50% target
-* Supervised CS projects, for prototyping and/or in machine learning in various languages.
+**November 2017 – June 2025 · Cambridge, UK / Remote**
 
-## Director - Cambridge Intelligent Systems UK Ltd
+Co-founded an R&D consultancy delivering applied research and software prototypes for the UK Ministry of Defence.
 
-Nov 2017 - June 2025 
+- Secured approximately **£150,000 in combined funding** across two UK MoD R&D programmes in XR, simulation, human factors and safety-critical systems.
+- Served as principal engineer and sole software developer, taking projects from proposals and stakeholder requirements through architecture, implementation, integration, experimentation, demonstration and final delivery.
+- Worked directly with MoD and DSTL engineers and researchers throughout project inception, requirements definition, development and evaluation.
+- Planned and managed milestones, deliverables, budgets and procurement and wrote research proposals and contract bids.
+- Personally presented and demonstrated completed systems to senior military stakeholders.
 
-Cambridge, England, United Kingdom · Remote
+See [Projects](#projects) for detailed technical descriptions, images and demonstration videos.
 
-* Technical and lead developer for all projects (see projects for details).
-* Responsible for all director duties including company tax compliance and payroll.
-* Writing research proposals and bidding for contracts.
-* Responsible for project management, stakeholder liaison and deliverables.
+## University of Cambridge, Department of Engineering — Research Associate
 
-## Associate Researcher - Department of Engineering at the University of Cambridge
+**October 2019 – July 2020 · Cambridge, UK**
 
-Oct 2019 - Jul 2020 
+- Supported research-group software and experimental infrastructure while continuing development and validation associated with doctoral research.
+- Developed and maintained support software in C++, TypeScript and Bash.
+- Performed database maintenance, scripting, experimental data collection and general technical support.
 
-Cambridge, England, United Kingdom · On-site
+## Cambridge University Technical Services Ltd — Consultant
 
-* Conducted research in the design of attention-aware systems. 
-* Included developing various applications and support systems in C++, Phyton and Javascript/TypeScript and running experiments to validate various hypotheses/concepts. 
-* The applications ranged from distributed middleware systems that interacted with sensors through high-speed networking to web applications that made use of the platform through a purposely built API.
-        
-       
-## Consultant - CAMBRIDGE UNIVERSITY TECHNICAL SERVICES LIMITED
+**May 2017 – December 2017 · Cambridge, UK**
 
-May 2017 - Dec 2017 
+Adapted technology developed during my PhD into an externally funded distributed attention-management demonstrator for a safety-critical air-traffic-control use case.
 
-Cambridge, England, United Kingdom · On-site
-
-* Technical and lead developer for all projects (see projects for details).
-* Responsible for all director duties including company tax compliance and payroll.
-* Writing research proposals and bidding for contracts.
-* Responsible for project management, stakeholder liaison and deliverables
-
-## Research Assistant - University of St Andrews
-
-Jan 2012 - Sep 2012 
-
-St Andrews, United Kingdom · On-site
-
-* Fully funded by a research grant from Dr. Kristensson. 
-
-* Worked under the supervision of Dr. Kristensson and Dr. Oulasvirta on investigating how users perceived their own performance while using computer interfaces with a Fittz law task. 
-
-* During the project, I built a series of experiments in C# using the XNA framework for the Microsoft Surface PixelSense 2.0 to collect and model how users perceived their change in performance while manipulating the ID of the interface. 
-
-* I also tested models using R and generated plots using MatplotLib. 
-
-* The results were published on the paper ''Modeling the perception of user performance'' in CHI 2014 (See publications for more info)
-
-
-## iGEM Intership - University of St Andrews
-
-Jun 2011 - Sep 2011
-
-St Andrews, United Kingdom · On-site
-
-* Funded by SULSA and WellcomeTrust
-* Won Gold Medal
-        
-* We investigated the development of a kill switch to deliver a drug payload. 
-* I contributed to project design, helped with various lab experiments, did the modelling for the reaction rates using MATLAB and maintained the team's wiki. After our demo, the team won a Gold Medal.
-
-
-
-## Research Assistant - University of St Andrews
-
-May 2011 - Jun 2011
-
-St Andrews, United Kingdom · On-site
-
-Worked under the supervision of Dr. Musolesi. 
-
-* The internship was funded by an EPSRC grant from Dr. Musolesi.
-
-The first one focused on the potential introduction of killing genes into mosquitoes to reduce disease transmission. 
-
-The project focused on modelling various biological processes. 
-I designed and implemented a simulator in Python to model infection rates on populations of mosquitoes subject to transmission and resistance coefficients. The simulator generated constrained graphs to emulate mosquito mating patterns for simulations.
-Over the course of the project, I produced various AWK and BASH scripts to automate various plots in R.
-The second project focused on modelling and finding patterns by tracking seals off the coast of St Andrews. 
-I used various clustering algorithms to find frequented places and patterns of behaviour by seals.
-
-## Software Developer - University of St Andrews 
-
-Aug 2010 - Sep 2010 
-
-St Andrews, United Kingdom · On-site
-
-* Worked on the implementation of a package to provide binary encoding for the GAP mathematical software (OpenMath).
-* [GAP Package Link](https://www.gap‑system.org/Packages/openmath.html).
-
-        
-        
-## C Developer - DTU (Technical University of Denmark)
-C DeveloperC Developer
-
-Jun 2010 - Aug 2010 
-
-Copenhagen, Denmark · On-site
-
-* Collaborated on accessibility features for the Evince PDF reader (GNOME desktop). E.g.: Orca integration and navigation.
-        
-* Produced documentation and guides for blind users to install Vinux (Linux Ubuntu for visually impaired users)
-
+See [Distributed Multi-Display Middleware](#distributed-multi-display-system-and-middleware-for-close-proximity-operator-gaze-and-attention-tracking--project-acc101965) below for technical details, images and demonstration video.
 
 # Projects
 
-## Attention‑Aware System for Mixed and Augmented Reality Controls in Armoured Vehicles - DSTL Open Call for Innovation Cycle 2 – Project Ref: ACC2006330
+## Attention-Aware System for Mixed and Augmented Reality Controls in Armoured Vehicles — Project ACC2006330
 
-**Duration:** Mar 2020 - Feb 2021
+**March 2020 – February 2021**
 
-Project done under [Cambridge Intelligent Systems UK Ltd](http://cambridgeintelligentsystems.co.uk/)
+Project delivered through [Cambridge Intelligent Systems UK Ltd](http://cambridgeintelligentsystems.co.uk/).
 
 ### Objectives
-The project focused on developing a VR simulation environment that allowed testing operators' reactions to various configurable threats under different levels of aiding visualisation mechanisms. The mechanisms made use of the operator's gaze direction to adapt themselves and/or deactivate, as well as input taken from menus interacted using the UltraLeap sensor. 
 
-### Project highlights and deliverables
-* Held regular meetings with DSTL members to distil requirements for the final system. 
-* Delivered a VR simulation environment developed in Unity Engine (C#) using the UltraLeep sensor and Oculus Rift headset capable of deploying pre-configurable scenarios in two environments (an open snowy landscape and an urban city).
-* Demonstrated through interim and final live demos the capabilities of the environment to stakeholders at the UK MoD armed forces and DSTL.
+The project developed a VR simulation environment for evaluating and training operators' responses to configurable threats under different attention-aware visualisation strategies. Visual aids used operator gaze direction to adapt, activate or deactivate, alongside menu interaction using an UltraLeap sensor.
 
+### Project Highlights and Deliverables
 
-### Capabilities of the simulation environment included
-* 3D models for human and vehicle threats that would suit the simulation environments. 
-* NPCs behaviours, including pathfinding, spawning, threat escalation and their corresponding animations/sounds. 
-* Parameterisable capabilities in the system to change the number of threats, intervals, visualisations and the path followed through the simulation. 
-* Standard NATO threat nomenclature symbol tagging on 3D models. 
-* 3 dynamic attention-aware visualisations: 1) Tracking of attended and non-attended areas in 360-world map and minimap, 2) Out-of-view pointers to threats with extra animations if not attended to, and 3) Animated motions to NATO threat nomenclature symbols when left unattended. 
+- Worked with DSTL/MoD stakeholders to elicit and refine system requirements.
+- Designed and developed the complete Unity/C# XR/VR simulation platform.
+- Delivered configurable scenarios across open snowy and urban environments.
+- Developed NPCs, threat behaviours, spawning, navigation/pathfinding, animations and sounds.
+- Implemented NATO-compliant threat symbology, 3D and minimap visualisations, 360-degree environmental views, threat-tagging interfaces and operator-performance logging.
+- Implemented dynamic attention-aware visualisation, including attended/unattended region tracking, out-of-view threat pointers and animated NATO symbols for unattended threats.
+- Integrated UltraLeap interaction and Oculus Rift VR hardware.
+- Personally delivered interim and final live demonstrations to DSTL, MoD and armed-forces stakeholders.
+- Software was subsequently incorporated into tank-operation training practices.
 
-The listing of the project can be seen in this [UK Government listing](https://www.gov.uk/government/publications/accelerator-funded-contracts/defence-and-security-accelerator-funded-contracts-1-april-2019-to-31-march-2020#open-call-for-innovation). 
+The project is included in the [UK Government DASA funded-contract listing](https://www.gov.uk/government/publications/accelerator-funded-contracts/defence-and-security-accelerator-funded-contracts-1-april-2019-to-31-march-2020#open-call-for-innovation).
 
 ![Virtual Environment For Threat Detection](/media/urban.png "Virtual Environment For Threat Detection")
 
 [![Watch Virtual Environment For Threat Detection Video](/media/prev_urban_vid.png)]({{ site.baseurl }}/media/Demo_urban.mp4)
 
+**Technologies:** Unity, C#, VR/XR, UltraLeap, Oculus Rift, simulation, HCI, adaptive interfaces, pathfinding, 3D visualisation
 
-## Mixed Reality Controls for Armoured Vehicles - DSTL Open Call for Innovation Cycle 3 – Project Ref: ACC2000981
-**Duration:** Dec 2018 - Oct 2019
+## Mixed Reality Controls for Armoured Vehicles — Project ACC2000981
 
-Project done under [Cambridge Intelligent Systems UK Ltd](http://cambridgeintelligentsystems.co.uk/)
+**December 2018 – October 2019**
+
+Project delivered through [Cambridge Intelligent Systems UK Ltd](http://cambridgeintelligentsystems.co.uk/).
 
 ### Objectives
-The project's objective was to compile the requirements and deliver a simulation environment that would allow trialling the deployment of a new VR UI, based on the General-Vehicle-Architecture (GVA) architecture with UltraLeap capabilities, to be used inside armoured vehicles. VR was used to simulate an AR deployment, as such, the simulation environment replicated the views from inside and outside the vehicle as well as allowed operators to see their arms during operation.
 
-### Project highlights and deliverables
+The project investigated the use of mixed-reality controls inside armoured vehicles. A VR environment was used to simulate a future AR deployment, including views from inside and outside the vehicle and interaction with virtual controls.
 
-* Held regular meetings with DSTL/MoD members to distil requirements for the final system. 
-* Delivered a VR simulation environment developed in Unity Engine (C#) using the UltraLeep sensor and Oculus Rift headset capable of deploying pre-configurable scenarios in two environments (an open snowy landscape and an urban city).
-* Demonstrated through interim and final live demos the capabilities of the environment to stakeholders at the UK MoD armed forces and DSTL.
-* The final deliverable consisted of the VR environment (Oculus Rift) built in Unity (C#) UltraLeep input capabilities. The environment allowed interaction with various GVA interactable menus that allowed switching between in- and out-of-vehicle views with passthrough capabilities for arms/hands. 
+### Project Highlights and Deliverables
 
-### Capabilities of the simulation environment included
-* Multi-virtual fully-interactable GVA UI deployment within the environment. 
-* Fully-interactable GVA menus of various types following domain specifications (shape, colours, behaviours)
-* In- and out-of-vehicle spherical 360 simulated cameras that could be rotated/directly manipulated through touching gestures (scrolling) using the UltraLeap. 
-* Multi-axis cameras for outside and inside views from the vehicle. 
-* Head-up UI to incorporate key moving platform controls and add new virtual ones: compass, minimap of current location and threats, and 360 augmented spherical view with threat markers/pointers in the virtual environment.
+- Worked with DSTL/MoD stakeholders to elicit requirements for the system.
+- Designed and developed the complete Unity/C# VR prototype.
+- Developed GVA-compliant interface concepts and interactable menus following domain specifications.
+- Implemented spherical 360-degree simulated camera views with direct manipulation through UltraLeap gestures.
+- Developed multi-axis cameras for interior and exterior vehicle views.
+- Implemented a head-up interface incorporating a compass, minimap, threats and a 360-degree augmented spherical view with threat markers and pointers.
+- Integrated UltraLeap hand interaction and Oculus Rift hardware.
+- Investigated replacing physical vehicle controls with mixed-reality interaction to reduce physical hardware requirements and vehicle weight.
+- Personally delivered interim and final demonstrations to MoD/DSTL and armed-forces stakeholders.
+- Concepts subsequently informed future vehicle-development work.
 
 ![Virtual GVA Images](/media/gva.png "Virtual GVA Images")
 
 [![Watch Virtual GVA Demo Video](/media/prev_gva_vid.png)]({{ site.baseurl }}/media/gva_demo.mp4)
 
-## Distributed multi-display system and middleware for close proximity operator gaze and attention tracking - Project Ref: ACC101965 
+**Technologies:** Unity, C#, VR, AR concepts, UltraLeap, Oculus Rift, 360-degree visualisation, GVA, HMI
 
-**Duration:** May 2017 - Dec 2017
+## Distributed Multi-Display System and Middleware for Close-Proximity Operator Gaze and Attention Tracking — Project ACC101965
 
-Project done under [CAMBRIDGE UNIVERSITY TECHNICAL SERVICES LIMITED](https://www.enterprise.cam.ac.uk/for-the-university/be-a-consultant/)
+**May 2017 – December 2017**
+
+Project delivered through [Cambridge University Technical Services Ltd](https://www.enterprise.cam.ac.uk/for-the-university/be-a-consultant/).
 
 ### Objectives
-The project's objective was to deliver an attention-aware distributed middleware for multi-display multitasking applications that used eye-trackers to feed attention events/information to web applications through an API. Use-case was potential deployment in air traffic control. Capabilities included showing the location of unseen data points, visualising the relative age of data, highlighting unattended points with timers and inter-display notifications based on attention focus. 
 
-### Project highlights and deliverables
-* Attended briefings and held meetings with DSTL/UK MoD and National Air Traffic Services (NATs) members at secured sites to gather requirements.
-* Delivered six packages and one live demo to stakeholders, as well as reports. 
-* The final deliverable consisted of the middleware developed in C/C++ that was capable of receiving eye-tracking data from each individually connected machine and aggregating it into global attentional events that could be delivered to subscribed applications and used to trigger events through hooks. 
+The project adapted the distributed attention-management architecture developed during my doctoral research into a separate safety-critical demonstrator. The target use case was potential deployment in air-traffic control, using eye trackers to provide attention events and information to applications through an API.
 
-### Capabilities of the simulation environment included
-*  Middleware capable of interacting with Tobii eye-tracking drivers. 
-* Determination of attention focus through data fusion. 
-* Configurable discretisation grid for matching data changes to eye fixation events. 
-* API with hooks for delivering messages/events to applications. 
-* Overlay library built in Javascript (d3.js) capable of drawing on top of web applications to highlight data points, and show relative data age and relative position of data changes across displays based on the operator's current focus of attention.
+### Project Highlights and Deliverables
 
-![Watch Multi-display Inattention Management Middleware System Video](/media/eye.png "Watch Multi-display Inattention Management Middleware System Video")
+- Attended briefings and requirements meetings with DSTL/UK MoD and National Air Traffic Services (NATS) personnel at secured sites.
+- Delivered six software packages, a live demonstrator and supporting reports.
+- Deployed the system across **5 application computers with 5 eye trackers**, plus central coordination and time-synchronisation services.
+- Developed C/C++ middleware capable of receiving eye-tracking data from individually connected machines and aggregating it into global attention events.
+- Integrated directly with Tobii eye-tracking drivers.
+- Implemented data fusion to determine operator attention focus.
+- Developed a configurable discretisation grid for matching application-data changes to eye-fixation events.
+- Developed a purpose-built API with subscriptions and hooks for delivering attention messages/events to applications.
+- Developed a JavaScript/d3.js overlay library capable of drawing over web applications to highlight data points, visualise relative data age and show the relative position of unattended changes across displays.
+- Demonstrated the system as a potential enhancement to RAF air-traffic-control systems.
+
+![Watch Multi-display Inattention Management Middleware System Video](/media/eye.png "Multi-display Inattention Management Middleware System")
 
 [![Watch Multi-display Inattention Management Middleware System Video](/media/prev_eye_vid.png)]({{ site.baseurl }}/media/final_cambridge_480p.mp4)
 
+**Technologies:** C/C++, JavaScript, TypeScript, d3.js, TCP/IP, distributed systems, Tobii eye tracking, middleware, APIs, data fusion
+
 # PhD Research
-## Thesis Title: Design, Implementation And Evaluation Of An Attention Management System 
 
-**University of Cambridge, UK**
+## Design, Implementation and Evaluation of an Attention Management System
 
-* Designed a middleware system architecture with multiple components capable of interoperating with various sensors across multiple networked computers to detect operator's attentional states within applications, match it to application's data changes and deliver instructions to applications based on evaluation of live operator and task performance.
-* Used a completely agile development philosophy as requirements were discovered through direct experimentation and iteration. All component and test development was Git source controlled.
-* Implemented a sensor networking component built in C++ directly interacting with both structured lighting sensors and eye‑tracker drivers in C/C++.
-* Implemented a live monitoring component developed in Python with TCP and WebSockets to directly interact with sensor information and Web applications built in TypeScript.
+**University of Cambridge · PhD Engineering (2014–2023)**
 
-* Implemented a the live performance visualiser tool in TypeScript/React with d3.js to showcase live operator performance and retrospectively.
-* Implemented a simulator in Python that could re‑run captured operator actions to model alternative operational outcomes under different visualisation policies. This could plug into the performance visualiser.
-* Evaluated system through experiments involving live testing with whole system integration and simulation using collected participant task performance data. Results published in peer‑reviewed papers.
+Designed, implemented and experimentally validated a distributed attention-management architecture for complex multi-display and multi-task human-in-the-loop systems.
 
-## Additional Research / Software Development / Maintenance Tasks
+The research covered the full engineering lifecycle from identifying human-machine-system challenges and designing the system architecture through software implementation, sensor integration, simulation, experimentation and statistical validation.
 
-**University of Cambridge, UK**
+### System Architecture
 
-* Participated in the research group's Scrum group for developing tools/libraries that were used across the entire research group. This included live graphing data through d3.js, Unity interfaces for prototyping, networking libraries for logging results, sensor polling and ML model building.
-* Maintained documentation to shared resources and libraries for the research group that I owned.
-* Deployed and maintained the VMs and Docker containers used in the research group's local servers for running experiments and number crunching.
-* Developed and maintained Python scripts using psutil to monitor the usage of the research group's local servers to ensure up-time and catch any user misuse/abuse.
-* Used AWS services to test and build ML models from sensor data collected for various research projects. This allowed maximising resource utilisation so only specific parameters in the search grid would get scheduled for building models based on previous results.
-* Developed an application that exposed through an API the head pose of an operator in a 5m x 5m room fitted with 8 Microsoft Kinect 2.0 through a purposely built ML classifier model. Work published in HCCS 2018.
-* Developed Android apps to collect data on various Fittz Law tasks that were used by the research group in some of their publications.
+Developed four integrated software systems:
 
-# Education 
+1. Sensor system
+2. Test application
+3. Simulator
+4. Attention-management system
 
-## PhD In Engineering / Computer Science - University Of Cambridge
-**Graduated Oct 2023**
+The architecture supported distributed deployments in which multiple networked computers, displays and sensors collectively represented an operator's working environment.
 
-Cambridge, UK
+### C++ Sensor and Middleware Systems
 
-* Thesis title: Design, Implementation and Evaluation of an Attention Management System
-* Supervised By Prof Per Ola Kristensson.
-* Fully Funded By DSTL (UK MoD). 
+- Developed standalone multithreaded C++ sensor drivers.
+- Integrated directly with Tobii eye-tracker APIs and structured-light sensors.
+- Developed multithreaded C++ aggregation and routing middleware.
+- Processed gaze and head-tracking information and inferred operator attention across displays and applications.
+- Distributed state, data and attention events across networked computers.
+- Developed purpose-built APIs for application integration.
 
-## MPhil in Advanced Computer Science - University Of Cambridge
-**Graduated July 2013**
+### Python Attention Management and Simulation
 
-Cambridge, UK
+Developed multithreaded Python software responsible for:
 
-* Thesis title: A privacy‑preserving advertisement delivery system
-* Developed a Python server ad delivery system that provided advertisements to a purposely built Chrome ex‑
-tension based on a publish‑subscribe architecture that could not be used to identify individual users and/or their
-data preferences. All connectivity done over RSA via WebSockets.
-* Courses: Security, Data‑centric Networks, Network Theory, Dist. Networks and Mobile App Development.
+- Aggregating global application and operator state.
+- Building performance baselines.
+- Calculating performance indicators.
+- Identifying attention-management problems.
+- Generating and scheduling adaptive interventions.
 
-## BSc in Computer Science - University Of St Andrews
-**Graduated Jun 2012**
+Also developed a Python simulator capable of replaying captured operator actions to model alternative outcomes under different visualisation/intervention policies.
 
-St Andrews, UK
+### Distributed Hardware Integration
 
-* Thesis title: A reduced implementation of INLPv4 (Identifier‑Locator Network Protocol ) for Linux.
-* Implemented the INLPv4 protocol described in RFC 6740 in C as a kernel‑level module.
+Engineered the architecture around hardware constraints requiring independent computers for eye-tracker/display combinations.
 
+The system architecture was capable of supporting up to:
 
-# Publications 
-* Nicosia, M., \& Kristensson, P. O. 2024. Risk management in human-in-the-loop AI-assisted attention aware systems. In Putting AI in the Critical Loop (pp. 81-92). Academic Press. 
-* Nicosia, M. and Kristensson, P.O. 2021. Design principles for AI‑assisted attention aware systems in human‑in‑the‑loop safety critical applications. In Lawless, W.F., Llinas, J., Sofge, D.A. and Mittu, R. (Eds.), Engineering Artificially Intelligent Systems: A Systems Engineering Approach to Realizing Synergistic Capabilities. Cham: Springer Nature.
-* Nicosia, M. and Kristensson, P.O. 2020. A conceptual design of an inattention management middleware with adaptive target saliency. In Proceedings of the 41st IEEE Aerospace Conference. IEEE Press.
-* Nicosia, M. and Kristensson, P.O. 2018. Inattention management middleware for human‑in‑the‑loop multi‑display applications. In Proceedings of the IEEE Workshop on Human‑Centered Computational Sensing (HCCS 2018). IEEE Press: 71‑76.
-* Nicosia, M., Oulasvirta, A. and Kristensson, P.O. 2014. Modeling the perception of user performance. In Proceedings of the 32nd ACM Conference on Human Factors in Computing Systems (CHI 2014). ACM Press: 1747‑1756.
+- 8 application computers
+- 8 Microsoft Kinect 2.0 structured-light sensors
+- 8 eye trackers
+- Dedicated coordination infrastructure
+- Dedicated time synchronisation
 
-# Patents 
-* Nicosia, L.M., \& Fukui, Y. April 2025. USER STATUS NOTIFICATION METHOD AND USER SUPPORT SYSTEM. Japanese Application no. 2025-063631.
-* Nicosia, L.M., \& Fukui, Y. Jan 2026. USER STATUS NOTIFICATION METHOD AND USER SUPPORT SYSTEM. US Application filed.
+The final research experiment used 4 application computers with eye trackers plus central coordination and time servers.
+
+### Monitoring and Visualisation
+
+- Developed live monitoring components in Python using TCP and WebSockets.
+- Developed TypeScript/React/d3.js visualisation tools for live and retrospective operator-performance analysis.
+- Developed reusable research-group libraries for live graphing, Unity prototyping, networking, sensor polling and machine-learning workflows.
+- Deployed and maintained VMs and Docker containers used by the research group for experiments and computational workloads.
+- Developed Python/psutil monitoring scripts for local research servers.
+- Used AWS to build machine-learning models and schedule parameter-search workloads based on previous results.
+
+### Sensor Fusion and Machine Learning
+
+Developed an application exposing operator head pose through an API in a **5 m × 5 m room fitted with 8 Microsoft Kinect 2.0 sensors**, using a purpose-built machine-learning classifier.
+
+This work formed part of research published at IEEE HCCS 2018.
+
+### Experimental Software
+
+Developed Android applications to collect data for Fitts' Law experiments used by the research group.
+
+### Experimental Validation
+
+Designed and conducted three iterative studies combining human-participant experimentation, simulation and system validation.
+
+Participant cohorts included:
+
+- Study 1: 16 participants
+- Study 2: 8 participants
+- Study 3: 16 participants
+
+Study designs included within-subject experiments and Latin-square counterbalancing.
+
+Adaptive interventions addressed:
+
+- Poor prioritisation of targets
+- Incorrect allocation of actions between tasks
+- Errors caused by misunderstandings
+- Poor situational awareness
+
+Simulation results based on participant data demonstrated statistically significant improvements in primary and secondary task performance in **3 of 4 trials**.
+
+The doctoral architecture subsequently formed the basis of externally funded MoD/RAF demonstrator work.
+
+**Technologies:** C++, Python, TypeScript, JavaScript, React, d3.js, TCP/IP, WebSockets, Tobii eye tracking, Kinect, sensor fusion, machine learning, AWS, Docker, distributed systems, simulation, experimental design
+
+# Education
+
+## PhD in Engineering — University of Cambridge
+
+**2014 – 2023 · Cambridge, UK**
+
+- Thesis: *Design, Implementation and Evaluation of an Attention Management System*
+- Supervised by Prof. Per Ola Kristensson.
+- Fully funded by DSTL (UK MoD).
+
+## MPhil in Advanced Computer Science — University of Cambridge
+
+**2012 – 2013 · Cambridge, UK**
+
+**Thesis:** *A Privacy-Preserving Advertisement Delivery System*
+
+- Developed a Python advertisement-delivery server and purpose-built Chrome extension.
+- Used a publish-subscribe architecture designed to prevent identification of individual users and their data preferences.
+- Connectivity and privacy mechanisms used RSA and WebSockets.
+- Relevant coursework: Security, Data-Centric Networks, Network Theory, Distributed Networks and Mobile Application Development.
+
+## BSc in Computer Science — University of St Andrews
+
+**2008 – 2012 · St Andrews, UK**
+
+**Thesis:** *A Reduced Implementation of INLPv4 (Identifier-Locator Network Protocol) for Linux*
+
+- Implemented a reduced version of the INLPv4 protocol described in RFC 6740 in C as a Linux kernel-level module.
+
+# Earlier Research and Development
+
+## University of St Andrews — Research Assistant
+
+**January 2012 – September 2012 · St Andrews, UK**
+
+- Worked with Dr. Per Ola Kristensson and Dr. Antti Oulasvirta investigating how users perceived their own performance while interacting with computer interfaces.
+- Developed C#/XNA experimental software for Microsoft Surface PixelSense 2.0 hardware.
+- Designed and supported Fitts' Law experiments.
+- Performed statistical modelling and analysis using R and generated scientific visualisations.
+- Research resulted in the ACM CHI 2014 publication *Modeling the Perception of User Performance*.
+
+## iGEM Internship — University of St Andrews
+
+**June 2011 – September 2011 · St Andrews, UK**
+
+- Funded by SULSA and the Wellcome Trust.
+- Contributed to a synthetic-biology project investigating a kill switch for delivery of a drug payload.
+- Contributed to project design and laboratory experiments.
+- Modelled reaction rates using MATLAB and maintained the team's wiki.
+- The project received an **iGEM Gold Medal**.
+
+## University of St Andrews — Research Assistant
+
+**May 2011 – June 2011 · St Andrews, UK**
+
+- Developed a Python simulator for modelling mosquito disease transmission and resistance.
+- Generated constrained graphs to emulate mosquito mating patterns.
+- Developed AWK and Bash scripts to automate analysis and plotting in R.
+- Contributed to a second project using clustering algorithms to identify frequently visited locations and behavioural patterns from seal-tracking data.
+
+## University of St Andrews — Software Developer
+
+**August 2010 – September 2010 · St Andrews, UK**
+
+- Developed functionality for a package providing binary OpenMath encoding for the GAP mathematical software.
+- The package was subsequently published in the GAP package ecosystem.
+- [GAP OpenMath Package](https://www.gap-system.org/Packages/openmath.html)
+
+## Technical University of Denmark (DTU) — C Developer
+
+**June 2010 – August 2010 · Copenhagen, Denmark**
+
+- Developed accessibility functionality in C for the Evince PDF reader / GNOME desktop ecosystem.
+- Worked on Orca screen-reader integration and navigation.
+- Produced documentation and guides for blind users installing Vinux, an Ubuntu distribution for visually impaired users.
+
+# Publications
+
+- Nicosia, M. & Kristensson, P. O. (2024). **Risk management in human-in-the-loop AI-assisted attention aware systems.** In *Putting AI in the Critical Loop* (pp. 81–92). Academic Press.
+- Nicosia, M. & Kristensson, P. O. (2021). **Design principles for AI-assisted attention aware systems in human-in-the-loop safety critical applications.** In *Engineering Artificially Intelligent Systems: A Systems Engineering Approach to Realizing Synergistic Capabilities*. Springer Nature.
+- Nicosia, M. & Kristensson, P. O. (2020). **A conceptual design of an inattention management middleware with adaptive target saliency.** Proceedings of the 41st IEEE Aerospace Conference. IEEE Press.
+- Nicosia, M. & Kristensson, P. O. (2018). **Inattention management middleware for human-in-the-loop multi-display applications.** Proceedings of the IEEE Workshop on Human-Centered Computational Sensing (HCCS 2018), 71–76. IEEE Press.
+- Nicosia, M., Oulasvirta, A. & Kristensson, P. O. (2014). **Modeling the perception of user performance.** Proceedings of the 32nd ACM Conference on Human Factors in Computing Systems (CHI 2014), 1747–1756. ACM Press.
+
+# Patents
+
+## User Status Notification Method and User Support System
+
+**Co-inventor with Y. Fukui**
+
+- Japanese Patent Application No. **2025-063631**, filed April 2025.
+- Related US patent application, filed January 2026.
+
+# Additional Projects
+
+## Adaptive Learning Prototype
+
+Developed an iOS mobile application prototype in Unreal Engine using Bayesian optimisation to dynamically adapt learning experiences based on measured user performance.
+
+# Languages
+
+- **English:** Native
+- **Spanish:** Fluent
+- **German:** Business
+- **Japanese:** Basic
